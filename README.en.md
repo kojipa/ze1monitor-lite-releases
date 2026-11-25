@@ -13,11 +13,11 @@ The app screens are in Japanese only.
 
 ## Download
 
-Download `ze1monitor-lite-0.1.0.apk` from [Releases](https://github.com/kojipa/ze1monitor-lite-releases/releases).
+Download `ze1monitor-lite-0.1.1.apk` from [Releases](https://github.com/kojipa/ze1monitor-lite-releases/releases).
 
 ## Features
 
-- **Home**: SOC, power (including regen), current, 12 V battery, pack voltage, range, speed, battery temperature, outside temperature, odometer. The state (charging, driving, regen, standby) is shown by colour.
+- **Home**: actual SOC, power (including regen), current, 12 V battery, pack voltage, range, speed, battery temperature, outside temperature, odometer. The state (charging, driving, regen, standby) is shown by colour. The actual SOC is not the meter % (about 95% when full).
 - **List**: SOH (read on connecting) and the latest value of each item.
 - **Last 15 minutes graph** of the chosen item.
 - **Battery** (while parked): cell spread diagnosis over the 96 cells, 12 V battery voltage, estimated 100% capacity, cell voltages, battery temperatures per sensor. Results are kept only on this device.
@@ -43,7 +43,7 @@ The two are separate apps and can be installed side by side.
 
 ## Not yet tested on a real car
 
-This version (lite-0.1.0) has not yet been run on a real car. It reads the values the same way as the full edition 0.1.0, whose formulas were checked against real logs (2018, 40 kWh).
+This version (lite-0.1.1) has not yet been run on a real car. It reads the values the same way as the full edition, whose formulas were checked against real logs (2018, 40 kWh).
 Not yet checked: running on a real car (update speed, long connections), Android 5–7 devices, quick charging, the 62 kWh (e+), other model years and grades.
 
 Please send what you notice through the [report form](https://docs.google.com/forms/d/e/1FAIpQLSclf5l6DPGDX64-3JDfNzAvxoqTRNH3-xf9LgrAWVtxSSxtJA/viewform).
