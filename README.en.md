@@ -13,7 +13,7 @@ The app screens are in Japanese only.
 
 ## Download
 
-Download `ze1monitor-lite-0.1.2.apk` from [Releases](https://github.com/kojipa/ze1monitor-lite-releases/releases).
+Download `ze1monitor-lite-0.1.3.apk` from [Releases](https://github.com/kojipa/ze1monitor-lite-releases/releases).
 
 ## Features
 
@@ -43,7 +43,7 @@ The two are separate apps and can be installed side by side.
 
 ## Not yet tested on a real car
 
-This version (lite-0.1.2) has not yet been run on a real car. It reads the values the same way as the full edition, whose formulas were checked against real logs (2018, 40 kWh).
+This version (lite-0.1.3) has not yet been run on a real car. It reads the values the same way as the full edition, whose formulas were checked against real logs (2018, 40 kWh).
 Not yet checked: running on a real car (update speed, long connections), Android 5–7 devices, quick charging, the 62 kWh (e+), other model years and grades.
 
 Please send what you notice through the [report form](https://docs.google.com/forms/d/e/1FAIpQLSclf5l6DPGDX64-3JDfNzAvxoqTRNH3-xf9LgrAWVtxSSxtJA/viewform).
@@ -51,6 +51,7 @@ Please send what you notice through the [report form](https://docs.google.com/fo
 ## Safety and disclaimer
 
 - The app sends read commands only. It never sends commands that change the car's settings, resets or clears trouble codes.
+- While charging with the power off, the battery values stop after a few minutes (the car's behaviour). Keep the power on to watch them while charging.
 - The internet is used only for the update check (at most once a day, can be turned off). No vehicle data leaves the device.
 - Values are estimates and their accuracy is not guaranteed. The author is not liable for any damage from using this app or an OBD2 adapter. Use at your own risk.
 - **Do not operate the app while driving.** An adapter left plugged in can drain the 12 V battery.
